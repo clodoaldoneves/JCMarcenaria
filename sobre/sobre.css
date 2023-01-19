@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 80px 0px;
+    /* background: #dbad73; */
+    background-image: url('https://thumbs.dreamstime.com/b/fundo-de-textura-madeira-com-alta-resolu%C3%A7%C3%A3o-natural-contraplacada-padr%C3%A3o-noz-topo-da-prancha-retrorreflectora-210462649.jpg');
+}
+
+.container-all{
+    background: #f9efdf;
+    background-image: url('https://img.freepik.com/fotos-premium/textura-de-madeira-branca-para-o-fundo-fechar-se_64749-2516.jpg?w=2000');
+}
+
+.navbar{
+    padding: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between ;
+    width: 100%;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    padding-top: 40px;
+    transition: trasform 100ms ease-in-out;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px;
+    background: #cf7c15;
+    color: #fff;
+}
+
+.navbar ul li:hover{
+    transform: scale(1.05);
+}
+
+/* CORPOR DA PÁGINA */
+.container-about{
+    width: 80%;
+    margin: 0 auto;
+    background: #714006;
+    margin-top: 50px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content-text{
+    flex: 50%;
+    padding: 20px;
+    margin: 20px;
+    background: #96590e;
+    border-radius: 10px;
+}
+
+.about-content-img{
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.about-content-img img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.about-content-text h2{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.about-content-text p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 40px;
+    /* padding: 20px; */
+}
+
+
+
+/* footer */
+
+.footer{
+    background: #ce9552;
+    margin-top: 20px;
+}
+
+.footer img{
+    width: 40px;
+}
+
+.footer p{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    body{
+        width: 100%;
+        padding: 10px;
+        padding-top: 0;
+    }
+
+    .container-all{
+        width: 100%;
+    }
+
+    .container-about{
+        width: 100%;
+        background: #714006;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    body{
+        width: 100%;
+        padding: 10px;
+        padding-top: 0;
+    }
+
+    .container-all{
+        width: 100%;
+    }
+
+    .container-about{
+        width: 100%;
+        background: #714006;
+        margin-top: 50px;
+    }
+}
